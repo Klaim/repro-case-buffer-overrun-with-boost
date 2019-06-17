@@ -1,0 +1,10 @@
+prefix=G:\tools\boost\boost_install
+exec_prefix=${prefix}
+includedir=${prefix}/include/boost-1_70
+libdir=${exec_prefix}/lib
+
+Name: libboost
+Description: The boost libraries
+Version: 1.70.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -lboost_filesystem -lboost_system

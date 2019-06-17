@@ -1,0 +1,6 @@
+libs =
+import libs += libboost%lib{boost_filesystem}
+
+exe{boostuser}: {hxx ixx txx cxx}{**} $libs testscript
+
+cxx.poptions =+ "-I$out_root" "-I$src_root"
