@@ -1,0 +1,11 @@
+: 1
+name: boostuser
+version: 0.1.0-a.0.z
+summary: boostuser C++ executable
+license: proprietary
+description-file: README.md
+url: https://example.org/boostuser
+email: jlamotte@softbankrobotics.com
+depends: * build2 >= 0.10.0
+depends: * bpkg >= 0.10.0
+depends: libboost >= 1.69.0
